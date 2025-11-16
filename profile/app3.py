@@ -47,7 +47,7 @@ page = st.sidebar.radio(
 if page == "Home":
     col1, col2 = st.columns([1,2])
     with col1:
-        st.image("https://github.com/Aquariusia/profile_app/blob/main/profile/profile.jpg", width=300)
+        st.image("profile.jpg", width=500)
     with col2:
         st.markdown("""
         <div style="padding:10px">
@@ -137,5 +137,6 @@ elif page == "Contact":
     - Twitter/X: [https://x.com/Seiya_Hoshimi](https://x.com/Seiya_Hoshimi)
     - Email: kiruohoshi@hotmail.com
     """)
+
 
 
