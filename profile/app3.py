@@ -1,6 +1,5 @@
 import streamlit as st
 import plotly.graph_objects as go
-from PIL import Image
 
 # -------------------------------
 # Streamlit Pages
@@ -48,8 +47,7 @@ page = st.sidebar.radio(
 if page == "Home":
     col1, col2 = st.columns([1,2])
     with col1:
-        img = Image.open("profile.jpg")
-        st.image(img, width=500)
+        st.image("https://raw.githubusercontent.com/Aquariusia/profile_app/refs/heads/main/profile/profile.jpg", width=500)
     with col2:
         st.markdown("""
         <div style="padding:10px">
@@ -139,6 +137,7 @@ elif page == "Contact":
     - Twitter/X: [https://x.com/Seiya_Hoshimi](https://x.com/Seiya_Hoshimi)
     - Email: kiruohoshi@hotmail.com
     """)
+
 
 
 
