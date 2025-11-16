@@ -67,7 +67,7 @@ elif page == "Publications":
     publications = [
         {"Title": "Replication and Critique of David Card’s 1993 Work: Re-estimating the Returns on Education with Distance to College as an Instrumental Variable.",
          "Type": "Research",
-         "Details": "This research revisits David Card’s 1993 study on the causal effect of college attendance on returns to education by leveraging a new dataset and several updated estimation methods. I re-evaluate the relationship between students’ family proximity to universities and educational outcomes, and examine how the validity of distance as an instrumental variable may have attenuated in the context of widespread internet access and remote learning."}
+         "Details": "This research revisits David Card’s 1993 study on the causal effect of college attendance on returns to education by leveraging a new dataset and several updated estimation methods. I re-evaluate the relationship between students’ family proximity to universities and educational outcomes, and examine how the validity of distance as an instrumental variable may have attenuated in the context of widespread internet access and remote learning. proposing a novel explanation for the weakening IV validity linked to structural behavioral shifts under digital transformation."}
     ]
 
     search = st.text_input("Search Publications")
@@ -137,6 +137,7 @@ elif page == "Contact":
     - Twitter/X: [https://x.com/Seiya_Hoshimi](https://x.com/Seiya_Hoshimi)
     - Email: kiruohoshi@hotmail.com
     """)
+
 
 
 
