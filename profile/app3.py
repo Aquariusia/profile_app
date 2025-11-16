@@ -116,8 +116,8 @@ elif page == "Projects":
 
     # radarchat
     st.subheader("Skill Overview")
-    categories = ["ML", "Python", "Data Analysis", "Causal inference", "Projects"]
-    values = [5,5,4,4,3]
+    categories = ["ML", "ECMT", "DSci", "Causal inference", "Projects"]
+    values = [5,4,5,4,3]
     fig = go.Figure()
     fig.add_trace(go.Scatterpolar(
         r=values,
@@ -137,6 +137,7 @@ elif page == "Contact":
     - Twitter/X: [https://x.com/Seiya_Hoshimi](https://x.com/Seiya_Hoshimi)
     - Email: kiruohoshi@hotmail.com
     """)
+
 
 
 
