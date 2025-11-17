@@ -101,7 +101,7 @@ elif page == "Projects":
          "Details": "Conducted data-driven analysis for a Rotary International report by collecting income level data from multiple authoritative sources as an intermediate variable. Using this, a causal relationship between charitable participation and educational attainment was established, providing a quantitative basis to support subsequent policy and decision-making recommendations."},
         {"Name": "A genomic data-based diagnostic assistant for leukemia.",
          "Description": "Developed LLM + XGBoost pipeline for genome data; Achieved 90% accuracy & recall; Deployed with Streamlit for interactive demo.",
-         "Details": "Developed a Streamlit-based web application that serves as an AI-powered diagnostic assistant for leukemia. The system integrates a base classification model with a feature-refined dataset selected via leave-one-out methods and fine-tunes a large language model (LLM) to assist analysis. Complex prompt engineering is applied to guide the AI outputs. The deployed chatbot enables healthcare professionals to upload patient genomic data and receive AI-assisted risk assessments, supporting clinical decision-making and personalized medical recommendations."}
+         "Details": "Developed a Streamlit-based web application that serves as an AI-powered diagnostic assistant for leukemia. The system integrates a base classification model with a fine-tunes large language model (LLM) to assist analysis. Complex prompt engineering is applied to guide the AI outputs. The deployed chatbot enables healthcare professionals to upload patient genomic data and receive AI-assisted risk assessments, supporting clinical decision-making and personalized medical recommendations."}
     ]
 
     for i, proj in enumerate(projects):
@@ -137,6 +137,7 @@ elif page == "Contact":
     - Twitter/X: [https://x.com/Seiya_Hoshimi](https://x.com/Seiya_Hoshimi)
     - Email: kiruohoshi@hotmail.com
     """)
+
 
 
 
