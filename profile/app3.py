@@ -97,10 +97,10 @@ elif page == "Projects":
          "Description": "ML Healthcare Case",
          "Details": "This project provided a foundational classification model pipeline for an Accenture healthcare consulting team. It utilized gene expression data from leukemia patients reported in Golub et al. (Science, 1999) and involved exploratory data analysis (EDA), data cleaning, preprocessing, and feature engineering. Due to the high-dimensional and low-sample-size nature of the dataset, multiple classification models were trained and compared. XGBoost was ultimately selected as the optimal model, and the cleaned dataset was used to train the model to obtain the final weighted classifier for acute leukemia prediction."},
         {"Name": "Next-Generation Community-Based Service Solutions.",
-         "Description": "Led  data analysis & drafted actionable report.",
+         "Description": "Data analysis & Actionable Report",
          "Details": "Conducted data-driven analysis for a Rotary International report by collecting income level data from authoritative sources as an intermediate variable. Using this, a causal relationship between charitable participation and educational attainment was established, providing a quantitative basis to support subsequent policy and decision-making recommendations."},
         {"Name": "Genetic Risk Calculator: A Genomic Data-Based Diagnostic Assistant for Leukemia.",
-         "Description": "Developed LLM + XGBoost pipeline for genome data; Achieved 90% accuracy & recall; Deployed with Streamlit for interactive demo.",
+         "Description": "LLM + XGBoost Streamlit Web APP",
          "Details": "Developed a Streamlit-based web application that serves as an AI-powered diagnostic assistant for leukemia. The system integrates a base classification model with a fine-tunes large language model (LLM) to assist analysis. Complex prompt engineering is applied to guide the AI outputs. The deployed chatbot enables healthcare professionals to upload patient genomic data and receive AI-assisted risk assessments, supporting clinical decision-making and personalized medical recommendations."}
     ]
 
@@ -137,6 +137,7 @@ elif page == "Contact":
     - Twitter/X: [https://x.com/Seiya_Hoshimi](https://x.com/Seiya_Hoshimi)
     - Email: kiruohoshi@hotmail.com
     """)
+
 
 
 
